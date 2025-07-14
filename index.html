@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My love Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .hero {
+            background: linear-gradient(rgba(20, 15, 15, 0.6), rgba(84, 20, 20, 0.6)), url("as0.jpg") no-repeat center center;
+            background-size: cover;
+        }
+        
+        .menu-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .dish-image {
+            height: 200px;
+            object-fit: cover;
+            transition: all 0.3s ease;
+        }
+        
+        .dish-image:hover {
+            transform: scale(1.05);
+        }
+        
+        .section-divider {
+            height: 150px;
+            background: url('https://placehold.co/1920x300') no-repeat center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-black text-white sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold font-serif">Some Memories of Love and Time Spent Together</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="hover:text-purple-400 transition">Name</a>
+                    <a href="#about" class="hover:text-purple-400 transition">About</a>
+                    <a href="#Images" class="hover:text-purple-400 transition">Images</a>
+                    <a href="#SnapChat" class="hover:text-purple-400 transition">SnapChat</a>
+                    <a href="#Gallery" class="hover:text-purple-400 transition">Gallery</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero text-white h-screen flex items-center justify-center">
+        <div class="text-center px-4">
+            <h1 class="text-5xl md:text-7xl font-serif font-bold mb-6">ANAND SALONI'S</h1>
+            <p class="text-xl md:text-2xl mb-8">A LOVE STORY</p>
+            <div class="space-x-4">
+                <a href="#contact" class="bg-transparent hover:bg-white hover:text-black border-2 border-white text-white font-bold py-3 px-6 rounded-full transition"> TUU MERI DUGGU </a>
+                <a href="#contact" class="bg-transparent hover:bg-white hover:text-black border-2 border-white text-white font-bold py-3 px-6 rounded-full transition">MAI TERA BUGGU</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-5">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <img src="as8.jpg" alt="No image" />
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-serif font-bold mb-6">About Us</h2>
+                    <p class="text-lg mb-4">Our relationship was that of brother-in-law and sister-in-law, I don't know how it turned into love</p>
+                    <p class="text-lg mb-6">But really, there was a lot of love between us. We loved each other a lot.</p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <h3 class="font-bold text-yellow-600 mb-2">HOMES PICTURES</h3>
+                            <p>FANNY MOVMENT</p>
+                        </div>
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <h3 class="font-bold text-yellow-600 mb-2">TEMPLE PICTURES</h3>
+                            <p>GOD IN LOVE</p>
+                        </div>
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <h3 class="font-bold text-yellow-600 mb-2">WAY TO JAURNEY</h3>
+                            <p>RASHTEY KE HASSI PAL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- Divider -->
+   <section class="divider-section2">
+  <!-- Your content here -->
+   </section id="image" class="py-20 bg-gray-50">
+   <div class="container mx-auto px-6">
+
+<style>
+  .divider-section2 {
+    height: 1000px; /* height as upper */
+    background-image: url('as20.jpg');
+    background-size: (200px);      /* image will cover entire section */
+    background-position: center;
+    background-position-y: (120px); /* center the image */
+    background-repeat: no-repeat;
+  }
+</style>
+
+  
+     
+
+    <!-- Images -->
+    <section id="Images" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-serif font-bold text-center mb-16">Journry of 19th Sep To 1st December</h2>
+            <!-- start love -->
+            <div class="mb-20">
+                <h3 class="text-2xl font-serif font-bold mb-8 text-center text-purple-500">Let's Go</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Image 1 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-lg menu-card transition duration-300">
+                        <img src="as9.jpg" alt="no image"/>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2"> She was Crying frist time to see me</h4>
+                            <p class="text-gray-500 mb-4">Frist Picture of started Love</p>
+                            <div class="flex justify-between items-center">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Dish 2 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-lg menu-card transition duration-300">
+                        <img src="as10.jpg" alt="no image" />
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2">Veshno Devi Mandir</h4>
+                            <p class="text-gray-500 mb-4">Frist date of started Love</p>
+                            <div class="flex justify-between items-center">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Dish 3 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-lg menu-card transition duration-300">
+                        <img src="as11.jpg" alt="no image"/>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2">Clothes Mathing</h4>
+                            <p class="text-gray-500 mb-4">Our clothes matched very well without telling</p>
+                            <div class="flex justify-between items-center">
+                                </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Dish 4 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-lg menu-card transition duration-300">
+                        <img src="as12.jpg" alt="no image"/>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2">Again Matcing</h4>
+                            <p class="text-gray-500 mb-4">Moj Masti kuch hassi pal</p>
+                            <div class="flex justify-between items-center">
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Dish 5 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-lg menu-card transition duration-300">
+                        <img src="as14.jpg" alt="no image"/>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2">Again Matching</h4>
+                            <p class="text-gray-500 mb-4">Kuch Logo KI nazar lag jati</p>
+                            <div class="flex justify-between items-center">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Dish 6 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-lg menu-card transition duration-300">
+                        <img src="as15.jpg" alt="no image"/>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2">Chat ka mazaa</h4>
+                            <p class="text-gray-500 mb-4">Sath mai Chat khane ka maza hi alag hai</p>
+                            <div class="flex justify-between items-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+            <!--Divider-->
+            <section class="divider-section">
+            <!-- Your content here -->
+      </section>
+
+<style>
+  .divider-section {
+    height: 300px; /* height as needed */
+    background-image: url('as3.jpg');
+    background-size: cover;
+    background-position: 1000px;      /* image will cover entire section */
+    background-position: center; /* center the image */
+    background-repeat: no-repeat;
+  }
+</style>
+
+            
+            <!-- SnapChat-->
+              <section id="SnapChat" class="py-20 bg-gray-50">
+              <div class="container mx-auto px-6">
+                <h3 class="text-6x1 font-serif font-bold mb-8 text-center text-blue-600">Stay Together Like This for Life</h3>
+                <div class="mb-20">
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10">
+                    <!-- Dish 1 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-lg menu-card transition duration-300">
+                        <img src="Snapchat-1260117455.jpg" alt="no image"/> 
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2">Ye Hath Kabhi Juda Na Ho</h4>
+                            <p class="text-gray-600 mb-4"></p>
+                             <div class="flex justify-between items-center">
+                                     </div>
+                                  </div>
+                               </div>
+                                <!-- Drive 2-->
+                                 <section class="Drive">
+                    <div class="bg-white rounded-lg overflow-hidden shadow-lg menu-card transition duration-300">
+                        <img src="a16.jpg"style="width: 500px; height:auto;" alt="no image"/>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2">Long Drive</h4>
+                            <p class="text-gray-500 mb-4">Night out party to humne bhi ki hai jaan</p>
+                            <div class="flex justify-between items-center">
+                            </div>
+                        </div>
+                    </div>
+                                 <!-- Drive 3 -->
+                                 <section class="Drive">
+                    <div class="bg-white rounded-lg overflow-hidden shadow-lg menu-card transition duration-300">
+                        <img src="as23.jpg"style="width: 500px; height:auto;" alt="no image"/>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2">Teri sugandh</h4>
+                            <p class="text-gray-1000 mb-4">Aaj bhi yaad hai kitne ache lgte hai haste huye</p>
+                            <div class="flex justify-between items-center">
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+ 
+    </div>
+     <!-- Our Gallery Section -->
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-serif font-bold text-center mb-12">SnapChat Images</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <img src="IMG-20250613-WA0008.jpg" alt="NO Image"/>
+                <img src="Snapchat-832291222.jpg" alt="no image"/>
+                <img src="Snapchat-570569537.jpg" alt="no image"/>
+                <img src="IMG-20250330-WA0073.jpg" alt="no image"/>
+                <img src="Snapchat-748790573.jpg" alt="no image"/>
+                <img src="Snapchat-1074968690.jpg" alt="no image"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Gallery Section -->
+    <section id="Gallery" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-serif font-bold text-center mb-12">Fall In Love Together</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <img src="as1.jpg" alt="NO Image"/>
+                <img src="as8.jpg" alt="no image"/>
+                <img src="as3.jpg" alt="no image"/>
+                <img src="as4.jpg" alt="no image"/>
+                <img src="as5.jpg" alt="no image"/>
+                <img src="as6.jpg" alt="no image"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section>
+         <div>
+            <h3 class="font-bold font-serif colour-purple">Anand Sikarwar</h3>
+        </div> 
+                
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-6">
+            <h4 class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-serif font-bold mb-4">ANAND SALONI</h3>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">**Maang loon khuda se tujhe har baar**, 
+                        <br>
+                             **Tu hee dikhe har dapha har baar**.
+                             <br>
+                             <br>
+                             **Tu salaamat rahe meree duaon mein**,
+                             <br>
+                             **Tu hee to hai mera pahala aur aakhiree pyaar**.</h4>
+                    
+                    <div class="mt-6">
+                        <div class="flex mt-2">
+                
+                        </div>
+                    </div>
+                </div>
+                <div> 
+                    <h4 class="text-lg font-bold mb-4">**Tere bina na jeene ka khyaal aata hai**,
+                        <br>
+**Har saans mein bas tera hee naam aata hai**.
+<br>
+**Tu ho jab paas, to sab kuchh apana sa lage**,
+<br>
+**Tu na ho to har chehara ajanabee sa lagata hai**</h4>
+                <div class="mt-6">
+                    <div class="flex mt-2">
+                        </div>
+                    </div>
+                </div>
+                            <div> 
+                             <h4 class="text-lg font-bold mb-4">**raat kee khaamoshee mein jab tera naam liya,**
+**dhadakanon ne bhee rukakar tera salaam liya.**
+**teree baanhon ka sukoon, teree saanson ka nasha,**
+**us pal har ehasaas ne ishq ka paigaam liya.**
+**kyuki uss raat chaad bhi gawa hai usne bhi apna rang badal liya**
+</h4>
+                <div class="mt-10">
+                    <div class="flex mt-2">
+                            </div> 
+                     </div>
+                </div>
+            <h4 class="border-t border-gray-800 mt-10 pt-6 text-center text-gray-500 text-sm">
+                <p>Lots of Love Saloni</p></h4>
+            <h4 class="center"></h4>
+            
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile show
+        document.querySelector('nav button').addEventListener('click', function() {
+            const navLinks = document.querySelector('.hidden.md\\:flex');
+            navLinks.classList.toggle('hidden');
+            navLinks.classList.toggle('flex');
+            navLinks.classList.toggle('flex-col');
+            navLinks.classList.toggle('absolute');
+            navLinks.classList.toggle('top-16');
+            navLinks.classList.toggle('left-0');
+            navLinks.classList.toggle('right-0');
+            navLinks.classList.toggle('bg-black');
+            navLinks.classList.toggle('p-4');
+            navLinks.classList.toggle('space-y-4');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
